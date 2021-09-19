@@ -9,8 +9,8 @@ def get_url(url):
     return soup
 
 
-mainurl = "https://www.bkmkitap.com"
-baseurl = "https://www.bkmkitap.com/edebiyat-kitaplari?pg="
+mainurl = "**********"
+baseurl = "**********"
 
 
 def get_pageurl(baseurl, pagenumber):
@@ -64,4 +64,4 @@ def save_excel(data, name):
     df.to_excel(f"{name}.xlsx")
 
 
-save_excel(details, "bkmkitap_100")
+save_excel(details, "kitap")
